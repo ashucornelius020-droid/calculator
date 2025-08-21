@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <script src="assets/Scripts/tailwinds.js"></script>
+
+    <link rel="stylesheet" href="assets/fonts/css/all.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="main-container flex bg-yellow-900  justify-center items-center ">
+        <div class="contents  flex flex-col justify-center gap-2 items-center m-6 flex-wrap justify-around">
+
+            <div class="upper flex flex-col flex-wrap gap-4 justify-center  items-center">
+                <div class="menu">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <select class="sltupper">
+                    <option value="1">History</option>
+                    <option value="2">Choose theme</option>
+                    <option value="3">Privacy policy</option>
+                    <option value="4">Send feedback</option>
+                    <option value="5">Help</option>
+                    </select>
+                </div>
+                <div class="screen">
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="lowers flex flex-col flex-wrap justify-center items-center">
+                <div class="options flex flex-wrap gap-2  justify-center items-center">
+                    <button><i class="fa-solid fa-square-root-variable"></i></button>
+                    <button><i class="fa-solid fa-ribbon"></i></button>
+                    <button>^</button>
+                    <button><i class="fa-solid fa-exclamation"></i></button>
+
+                    <select class="sltlower">
+                   <option value="1"><button>DEG</button></option> 
+                    <option value="2"><button>sin</button></option> 
+                    <option value="3"><button>cos</button></option> 
+                    <option value="4"><button>tan</button></option> 
+
+                    <option value="5"><button>INV</button></option> 
+                   <option value="6"><button>e</button></option> 
+                   <option value="7"><button>ln</button></option> 
+                    <option value="8"><button>log</button></option> 
+                    </select>
+                </div>
+
+                <div class="inputs flex flex-wrap gap-2  justify-center items-center">
+                        <button class="btn-action-clear">AC</button>
+                        <button class="btn-action bracket">( )</divbutton>
+                        <button class="btn-action percentage">%</button>
+                        <button class="btn-action divide"> <i class="fa-solid fa-divide"></i> </button>
+
+                        <button class="btn-input">7</button>
+                        <button class="btn-input">8</button>
+                        <button class="btn-input">9</button>
+                        <button class="btn-action multiply"><i class="fa-solid fa-xmark"></i> </button>
+
+                        <button class="btn-input">4</button>
+                        <button class="btn-input">5</button>
+                        <button class="btn-input">6</button>
+                        <button class="btn-action minus"><i class="fa-solid fa-minus"></i> </button>
+
+                        <button class="btn-input">1</button>
+                        <button class="btn-input">2</button>
+                        <button class="btn-input">3</button>
+                        <button class="btn-action plus"><i class="fa-solid fa-plus"></i></button>
+
+                        <button class="btn-input">0</button>
+                        <button class="btn-input">.</button>
+                        <button class="btn-input-backspace"><i class="fa-solid fa-delete-left"></i></button>
+                        <button class="btn-action-equal"><i class="fa-solid fa-equals"></i></button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="assets/Scripts/script.js"></script>
+</body>
+
+</html>

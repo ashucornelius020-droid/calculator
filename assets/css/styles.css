@@ -1,0 +1,154 @@
+.contents{
+    width: 380px;
+    height: 680px;
+    border-radius: 20px;
+    background-color: black;
+
+
+}
+
+ button{
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(223, 220, 213, 0.682);
+    width: 70px;
+    height: 70px;
+    
+
+}
+
+.btn-input:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-action:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-action-clear:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-action-clear:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-action-equal:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+
+.inputs{
+    flex: .5;
+    padding-bottom: 10px;
+    font-size: 25px;                                                                                                                            
+}
+
+
+.options{
+    flex: .1;
+    max-height: 300px;
+    padding: 0;
+    background-color: black;
+    color: blue;
+
+}
+
+.options button{
+    border-radius: 25%;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.options button:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+.screen{
+    flex: .6;
+   background-color: greenyellow;
+}
+
+.menu{
+    flex: .4;
+    height: 70px;
+    width: 380px;
+    outline: none;
+    cursor: pointer;
+    text-align: end;
+    color: white;
+    font-size: 15px;
+    margin: 0;   
+    background-color: red;
+}
+
+.btn-action{
+    background-color: rgba(29, 29, 106, 0.915);
+}
+.btn-action-clear{
+    background-color: rgb(13, 127, 13);
+}
+
+.btn-action-equal{
+    background-color: blue;
+}
+
+
+.upper{
+    flex: .4;
+    background-color: rgba(223, 220, 213, 0.682);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 400px;
+    width: 380px;
+    margin-top: 0;
+    padding-top: 60px;
+    background-color: blue;
+
+
+}
+
+.lowers {
+    background-color: black !important;
+    height: 500px;
+    margin-top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding:0;
+}
+
+.screen input{
+    height: 70px;
+    width: 380px;
+    outline: none;
+    cursor: pointer;
+    text-align: end;
+    color: white;
+    font-size: 50px;
+}
+
+.sltupper{
+    background-color: rgba(100, 95, 83, 0.682);
+}
